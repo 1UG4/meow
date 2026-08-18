@@ -1,3 +1,3 @@
-nimi = "Rufus"
+nimi = input("input: ")
 
-print(f"Terve, {nimi}!")
+print("Terve, " + nimi + "!")
