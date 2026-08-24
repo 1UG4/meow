@@ -1,6 +1,6 @@
-leiviskät = float(input("input: "))
-naulat = float(input("input: "))
-luodit = float(input("input: "))
+leiviskät = float(input("leiviskät: "))
+naulat = float(input("naulat: "))
+luodit = float(input("luodit: "))
 
 
 yhteensa_luodit = (leiviskät * 20 * 32) + (naulat * 32) + luodit
