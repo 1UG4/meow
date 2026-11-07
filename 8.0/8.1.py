@@ -7,9 +7,7 @@ yhteys = mysql.connector.connect(
          user='root',
          password='metropoliarb',
          autocommit=True
-         )
-
-
+)
 def hae_tietokannasta_icao(icao_koodi):
     sql = f"SELECT name, municipality from airport where IDENT='{icao_koodi}'"
     print(sql)
